@@ -1,5 +1,3 @@
-
-
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent('25:buyboissons')
