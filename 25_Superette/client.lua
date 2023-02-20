@@ -7,8 +7,8 @@ Citizen.CreateThread(function()
 
     local open = false 
     local Mainmenu = RageUI.CreateMenu("LTD","By 25") 
-    local boisson = RageUI.CreateSubMenu(Mainmenu,"Boisson","Menu")
-    local nourriture = RageUI.CreateSubMenu(Mainmenu,"Nourriture","Menu")
+    local boisson = RageUI.CreateSubMenu(Mainmenu,"Boisson","Liste des boissons")
+    local nourriture = RageUI.CreateSubMenu(Mainmenu,"Nourriture","Liste des Nourritures")
     Mainmenu.Closed = function()
         open = false 
     end 
