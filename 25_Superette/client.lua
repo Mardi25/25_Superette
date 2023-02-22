@@ -51,7 +51,7 @@ Citizen.CreateThread(function()
     end
 end)
 
----- Marker ---- 
+-- Marker Superette
 
 Citizen.CreateThread(function()
     while true do
@@ -75,7 +75,7 @@ Citizen.CreateThread(function()
     end
 end)
 
----- Blips ---- 
+-- Marker Superette Blips 
 
 Citizen.CreateThread(function() 
     for k, v in pairs(Config.PositionShop) do 
